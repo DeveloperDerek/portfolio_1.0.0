@@ -1,4 +1,3 @@
-console.log('Its working')
 
 let theme = localStorage.getItem('theme')
 
@@ -38,3 +37,9 @@ function setTheme(mode){
 
 	localStorage.setItem('theme', mode)
 }
+
+$(document).ready(function () {
+	$('#hidden').fadeIn(10000);
+    // OR $('div.toshow').show(2200);
+    // OR $('div.toshow').slideDown("slow");
+});

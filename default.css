@@ -122,6 +122,18 @@ h6 { font-size: 16px;}
 	margin-left:5px;
 }
 
+#hidden{
+	display: none
+}
+
+.intro-text{
+	text-align: center;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
 .browser-dot{
 	background-color: black;
