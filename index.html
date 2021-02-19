@@ -14,16 +14,15 @@
 	<link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 <body>
-	<section class="s1 vh-100">
-		<nav class="navbar navbar-expand-lg">
+	<section class="s1">
+		<nav class="navbar navbar-expand-lg navbar-bg">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Navbar</a>
+				<a class="navbar-brand" href="#">Derek</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
-						<a class="nav-link active" aria-current="page" href="#">Home</a>
 						<a class="nav-link" href="#">About</a>
 						<a class="nav-link" href="#">Skills</a>
 						<a class="nav-link" href="#">Projects</a>
@@ -33,62 +32,40 @@
 				</div>
 			</div>
 		</nav>
-		<div class="first-box">
+		<div class="container-fluid">
 			<div id="hidden">
 				<h1 class="intro-text">Hello there, I'm Derek and I Web Develop</h1>
+				<h5>Personalize Theme</h5>
+				<div id="theme-options-wrapper">
+					<div data-mode="light" id="light-mode" class="theme-dot"></div>
+					<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+					<div data-mode="green" id="green-mode" class="theme-dot"></div>
+					<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+				</div>
+				<p id="settings-note">*Theme settings will be saved for<br>your next vist</p>
 			</div>
 		</div>
 	</section>
 
 	<section class="s2">
-		<div class="main-container">
-			<div class="intro-wrapper">
-				<div class="left-column">
-					<img id="profile_pic" src="images/elephant.jpg">
-					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
-					<div id="theme-options-wrapper">
-						<div data-mode="light" id="light-mode" class="theme-dot"></div>
-						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
-						<div data-mode="green" id="green-mode" class="theme-dot"></div>
-						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
-					</div>
-					<p id="settings-note">*Theme settings will be saved for<br>your next vist</p>
-				</div>
-
-				<div class="right-column">
-					<div id="preview-shadow">
-						<div id="preview">
-							<div id="corner-tl" class="corner"></div>
-							<div id="corner-tr" class="corner"></div>
-							<h3>What I Do</h3>
-							<p>I was a lead developer in a past life, now I enjoy teaching courses.</p>
-							<div id="corner-br" class="corner"></div>
-							<div id="corner-bl" class="corner"></div>
-						</div>
-					</div>
-				</div>
+		<div class="row container-fluid">
+			<div class="col">
+				<img id="profile_pic" class="img-fluid" src="images/elephant.jpg">
 			</div>
+			<div class="col">test</div>
 		</div>
 	</section>
 
 	<section class="s2">
 		<div class="main-container">
-
 			<div class="about-wrapper">
 				<div class="about-me">
 					<h4>More about me</h4>
-
 					<p>I build new projects just to tickle my brain and love teaching others how they're made.</p>
-
 					<p>While I keep busy teaching courses, I still take interviews in search of a great team & projects that interest me.</p>
-
-
 					<hr>
-
 					<h4>TOP EXPERTISE</h4>
-
 					<p>Fullstack developer with primary focus on Django + React: <a target="_blank" href="resume.pdf">Download Resume</a></p>
-
 					<div id="skills">
 						<ul>
 							<li>Python</li>
@@ -97,7 +74,6 @@
 							<li>React</li>
 							<li>Postgres</li>
 						</ul>
-
 						<ul>
 							<li>Google Maps API</li>
 							<li>JS Charts</li>
@@ -105,12 +81,8 @@
 							<li>Heroku</li>
 							<li>HTML/CSS</li>
 						</ul>
-
 					</div>
-
 				</div>
-
-				
 				<div class="social-links">
 					<img id="social_img" src="images/follow.jpg">
 					<h3>Find me on Twitter & Youtube</h3>

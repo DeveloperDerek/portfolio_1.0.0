@@ -39,7 +39,7 @@ function setTheme(mode){
 }
 
 $(document).ready(function () {
-	$('#hidden').fadeIn(10000);
+	$('#hidden').fadeIn(5000);
     // OR $('div.toshow').show(2200);
     // OR $('div.toshow').slideDown("slow");
 });

@@ -57,17 +57,21 @@ h4 { font-size: 24px;}
 h5 { font-size: 20px;}
 h6 { font-size: 16px;}
 
+.navbar-bg{
+	background-color: var(--secondaryColor);
+	border-bottom: 1px solid var(--borderColor);
+}
 
 .s1{
 	background-color: var(--mainColor);
 	border-bottom:1px solid var(--borderColor);
-	overflow:auto;
+	height: 100vh;
 }
 
 .s2{
 	background-color: var(--secondaryColor);
 	border-bottom:1px solid var(--borderColor);
-	overflow:auto;
+	height: 100vh;
 }
 
 
@@ -78,14 +82,6 @@ h6 { font-size: 16px;}
 
 
 .intro-wrapper{
-	background-color: var(--secondaryColor);
-	border:1px solid var(--borderColor);
-	border-radius:5px 5px 0 0;
-
-
-	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -123,10 +119,7 @@ h6 { font-size: 16px;}
 }
 
 #hidden{
-	display: none
-}
-
-.intro-text{
+	display: none;
 	text-align: center;
 	margin: 0;
 	position: absolute;
@@ -134,6 +127,7 @@ h6 { font-size: 16px;}
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
 
 .browser-dot{
 	background-color: black;
@@ -159,8 +153,8 @@ h6 { font-size: 16px;}
 	display: block;
 	margin:0 auto;
 
-	height: 200px;
-	width: 200px;
+	height: 400px;
+	width: 500px;
 	object-fit: cover;
 	border:2px solid var(--borderColor);
 }
@@ -212,7 +206,6 @@ h6 { font-size: 16px;}
 #settings-note{
 	font-size: 12px;
 	font-style: italic;
-	text-align: center;
 }
 
 .right-column{
