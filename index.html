@@ -27,22 +27,21 @@
 					<span>Derek</span>
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+					<span class="fas fa-bars"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
 						<a class="nav-link" href="#about">About</a>
 						<a class="nav-link" href="#skills">Skills</a>
-						<a class="nav-link" href="#">Projects</a>
-						<a class="nav-link" href="#">Resume</a>
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="#projects">Projects</a>
+						<a class="nav-link" href="#contact">Contact</a>
 					</div>
 				</div>
 			</div>
 		</nav>
 		<div class="container-fluid">
 			<div id="hidden">
-				<h1 class="intro-text">Hello there, I'm Derek and I Web Develop</h1>
+				<h1 class="intro-text">Hello there, I'm Derek and I'm a Web Developer</h1>
 				<h5>Personalize Theme</h5>
 				<div id="theme-options-wrapper">
 					<div data-mode="light" id="light-mode" class="theme-dot"></div>
@@ -55,9 +54,9 @@
 		</div>
 	</section>
 
-	<section class="s2">
+	<section class="s2 container-fluid">
 		<a name="about"></a>
-		<div class="row container-fluid">
+		<div class="row py-3">
 			<div class="col-sm col-md-6">
 				<div class="profile">
 					<img id="profile_pic" class="img-fluid" src="images/jeaniebday.jpg">
@@ -69,55 +68,120 @@
 					<p>I'm a full stack web developer based in Orange County, California. I have a passion for learning.</p>
 					<p>My goal is to continue learning about the limitless possibilities through programming.</p>
 					<p>I am currently seeking opportunites to join a team where I can grow and further expand my technical skills.</p>
-					<blockquote class="fst-itali text-center">
+					<blockquote class="fst-italic text-center">
 						"Education is the passport to the future, for tomorrow belongs to those who prepare for it today."
 						-Malcom X
-					</blockquote>	
-					<h6><a href="#">LinkedIn</a></h6>
-					<h6><a href="#">Github</a></h6>
+					</blockquote>
+					<div class="mx-auto">
+						<h6><span class="fas fa-file-signature"></span> Derek Ho</h6>
+						<h6><span class="fas fa-thumbtack"></span> Orange County, Californa</h6>
+						<h6><span class="fas fa-envelope-square"></span> Derekqho@gmail.com</h6>
+						<h6><span class="fab fa-linkedin"></span> <a href="#">LinkedIn</a></h6>
+						<h6><span class="fab fa-github-square"></span> <a href="#">Github</a></h6>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="s1">
-		<a name="skills"></a>
-		<h1 id="tech-skills">Technical Skills</h1>
-		<div class="row container-fluid text-center">
-			<div class="col-md-12 col-lg-6 profile">
-				<h2><i class="fas fa-code"></i> Languages</h2>
-				<p>Javascript | Python | C# | HTML | CSS</p>
-			</div>
-			<div class="col-md-12 col-lg-6 profile">
-				<h2><i class="fas fa-database"></i> Databases</h2>
-				<p>MongoDB | MySQL | SQL</p>
-			</div>
-			<div class="col-md-12 col-lg-6 profile">
-				<h2><i class="fas fa-cogs"></i> Frameworks</h2>
-				<p>React.JS | Node.JS | Express.JS | Django</p>
-				<p>.Net Core | Bootstrap | jQuery | Redux</p>	
-			</div>
-			<div class="col-md-12 col-lg-6 profile">
-				<h2><i class="fas fa-toolbox"></i> Development Tools</h2>
-				<p>AWS | Heroku | Git | GitHub</p>
-				<p>NPM | NGinx | Postman | VS Code | Yarn</p>
-			</div>
-		</div>	
-	</section>
-
-	<section class="s2">
-		<a name="projects"></a>
-		<h1>Projects</h1>
-		<div class="row container-fluid">
-			<div class="col-md-12 col-lg-6">
-				<h2>Turts and Torts</h2>
-			</div>
-			<div class="col-md-12 col-lg-6">
-				<h2>FindSugar</h2>
-			</div>
+	<section class="s1 container-fluid">
+		<div class="py-3">
+			<h1 class="text-center">Technical Skills</h1>
+			<a name="skills"></a>
+			<div class="row text-center">
+				<div class="col-md-12 col-lg-6">
+					<div class="skills">
+						<h2><i class="fas fa-code"></i> Languages</h2>
+						<p>Javascript | Python | C# | HTML | CSS</p>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-6">
+					<div class="skills">
+						<h2><i class="fas fa-database"></i> Databases</h2>
+						<p>MongoDB | MySQL | SQL</p>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-6">
+					<div class="skills">
+						<h2><i class="fas fa-cogs"></i> Frameworks</h2>
+						<p>React.JS | Node.JS | Express.JS | Django</p>
+						<p>.Net Core | Bootstrap | jQuery | Redux</p>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-6">
+					<div class="skills">
+						<h2><i class="fas fa-toolbox"></i> Development Tools</h2>
+						<p>AWS | Heroku | Git | GitHub</p>
+						<p>NPM | NGinx | Postman | VS Code | Yarn</p>
+					</div>
+				</div>
+			</div>	
 		</div>
 	</section>
 
+	<section class="s2 container-fluid">
+		<div class="py-3">
+
+			<h1 class="text-center">Projects</h1>
+			<a name="projects"></a>
+			<div class="row">
+				<div class="col-md-12 col-lg-6">
+					<div class="projects">
+						<h2 class="project-title">
+							<a href="http://turts-and-torts.herokuapp.com/">Turts & Torts</a>
+						</h2>
+						<img class="img-fluid" src="images/proj2.png">
+						<p class="project-sub">MongoDB | Express.JS | React.JS | Node.JS</p>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-6">
+					<div class="projects">
+						<h2 class="project-title">
+							<a href="http://turts-and-torts.herokuapp.com/">FindSugar</a>
+						</h2>
+						<img class="img-fluid" src="images/proj1.png">
+						<p class="project-sub">MongoDB | Express.JS | React.JS | Node.JS</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+	<section class="s1 container-fluid">
+		<div class="py-3">
+			<h1 class="text-center">Contact Me</h1>
+			<a name="contact"></a>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col-8">
+					<form>
+						<div class="form-floating mb-3">
+							<input type="text" class="form-control" placeholder="name">
+							<label>Name</label>
+						</div>
+						
+						<div class="form-floating mb-3">
+							<input type="text" class="form-control" placeholder="subject">
+							<label>Subject</label>
+						</div>
+						
+						<div class="form-floating mb-3">
+							<input type="email" class="form-control" placeholder="email">
+							<label>Email</label>
+						</div>
+						
+						<div class="form-floating mb-3">
+							<textarea class="form-control" placeholder="message" style="height: 100px"></textarea>
+							<label>Message</label>
+						</div>
+						
+						<button class="btn btn-color btn-outline-light btn-lg float-end">Submit</button>
+					</div>
+				</form>
+				<div class="col"></div>
+			</div>
+		</div>
+	</section>
 	
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="script.js" async defer></script>

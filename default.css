@@ -13,7 +13,7 @@
 	--previewShadow:#f0ead6;
 
 
-	--buttonColor:black;
+	--buttonColor:#c1c1c1;
 
 
 }
@@ -28,18 +28,18 @@ html, body{
 
 h1, h2, h3, h4, h5, h6, strong, blockquote{
 	color: var(--mainText);
-	font-family: 'Russo One', sans-serif;
+	font-family: 'system-ui', sans-serif;
 	font-weight: 500;
 }
 
-p, li, span, label, input, textarea{
+p, li, span{
 	color: var(--secondaryText);
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'system-ui', monospace;
 }
 
 a{
 	text-decoration: none;
-	color:#17a2b8;
+	color: #6666ff
 }
 
 ul{
@@ -81,14 +81,27 @@ h6 { font-size: 16px;}
 	transform: translate(-50%, -50%);
 }
 
-#tech-skills{
-	padding-top:50px;
-	text-align: center;
+.skills{
+	margin-bottom: 50px;
+	margin-top: 25px;
+	border-style: solid;
+	border-color: var(--borderColor);
+	padding: 35px;
 }
 
-.profile{
-	margin-top:50px;
+.projects{
 	margin-bottom: 50px;
+	margin-top: 35px;
+}
+
+.project-title{
+	text-align: center;
+	background-color: var(--mainColor);
+}
+
+.project-sub{
+	text-align:center;
+	background-color: var(--mainColor);
 }
 
 #profile_pic{
@@ -149,6 +162,7 @@ h6 { font-size: 16px;}
 	font-style: italic;
 }
 
-.skills{
-	margin: 50px 0px
+.btn-color{
+	background-color: var(--buttonColor);
+	color: var(--mainText);
 }
