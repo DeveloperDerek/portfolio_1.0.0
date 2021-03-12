@@ -40,6 +40,29 @@ function setTheme(mode){
 
 $(document).ready(function () {
 	$('#hidden').fadeIn(5000);
-    // OR $('div.toshow').show(2200);
-    // OR $('div.toshow').slideDown("slow");
 });
+
+function validateForm() {
+	var name = document.forms["myForm"]["name"].value;
+	var subject = document.forms["myForm"]["subject"].value;
+	var email = document.forms["myForm"]["email"].value;
+	var message = document.forms["myForm"]["message"].value;
+	if (name == "") {
+		alert("Name must be filled out");
+		return false;
+	}
+	if (subject == "") {
+		alert("Subject must be filled out");
+		return false;
+	}
+	if (email == "") {
+		alert("Email must be filled out");
+		return false;
+	}
+	if (message == "") {
+		alert("Message must be filled out");
+		return false;
+	}
+	
+	alert("message sent")
+}

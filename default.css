@@ -9,15 +9,9 @@
 
 	--themeDotBorder:#24292e;
 
-	--previewBg:rgb(251, 249, 243, 0.8);
-	--previewShadow:#f0ead6;
-
-
 	--buttonColor:#c1c1c1;
 
-
 }
-
 
 html, body{
 	padding: 0;
@@ -37,9 +31,13 @@ p, li, span{
 	font-family: 'system-ui', monospace;
 }
 
+p{
+	font-size: 22px;
+}
+
 a{
 	text-decoration: none;
-	color: #6666ff
+	color: black
 }
 
 ul{
@@ -70,7 +68,6 @@ h6 { font-size: 16px;}
 
 }
 
-
 #hidden{
 	display: none;
 	text-align: center;
@@ -92,16 +89,12 @@ h6 { font-size: 16px;}
 .projects{
 	margin-bottom: 50px;
 	margin-top: 35px;
-}
-
-.project-title{
+	background-color: var(--mainColor);
 	text-align: center;
-	background-color: var(--mainColor);
 }
 
-.project-sub{
-	text-align:center;
-	background-color: var(--mainColor);
+.projects p{
+	padding: 5px 20px;
 }
 
 #profile_pic{
@@ -112,6 +105,14 @@ h6 { font-size: 16px;}
 	width: 450px;
 	object-fit: cover;
 	border:2px solid var(--borderColor);
+}
+
+.icons{
+	margin-top: 40px;
+}
+
+.icon{
+	margin: 17px 0px;
 }
 
 #theme-options-wrapper{
@@ -146,15 +147,15 @@ h6 { font-size: 16px;}
 }
 
 #blue-mode{
-	background-color: #192734;
+	background-color: #495057;
 }
 
 #green-mode{
-	background-color: #78866b;
+	background-color: #E8D1C5;
 }
 
 #purple-mode{
-	background-color: #7E4C74;
+	background-color: #00B4D8;
 }
 
 #settings-note{
